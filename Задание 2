@@ -1,0 +1,19 @@
+# Pr1_lab_rab_1
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<title>Лабараторная 12</title> 
+</head> 
+<body>
+ <script> 
+var i = 103;
+var a = 0;
+while ( i>=0) 
+{
+a = 1 / (i+a);
+i= i - 2;
+}
+document.write ( "Результат:  " + a );
+</script>
+ </body> 
+</html> 
