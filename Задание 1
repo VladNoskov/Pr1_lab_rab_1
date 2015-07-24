@@ -1,0 +1,47 @@
+# Pr1_lab_rab_1
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<title>Лабараторная 1</title> 
+</head> 
+<body>
+ <script> 
+var a;
+var b;
+var c;
+var chislo1 = prompt('Введите первое число', ''); 
+var chislo2 = prompt('Введите второе число', ''); 
+var chislo3 = prompt('Введите третье число', ''); 
+if (chislo1 > 1 & chislo1 < 3)
+{ 
+a = chislo1;  
+}
+else
+{
+a = "Первое число не входит в интервал";
+}
+if (chislo2 > 1 & chislo2 < 3)
+{ 
+b = chislo2;  
+}
+else
+{
+b = "Второе число не входит в интервал";
+}
+if (chislo3 > 1 & chislo3 < 3)
+{ 
+c = chislo;  
+}
+else
+{
+c = "Третье число не входит в интервал";
+}
+alert("Результат = "+ a +", "+ b + ", " + c)
+var i; 
+var chisla = new Array(); 
+chisla[0] = a; 
+chisla[1] = b;
+chisla[2] = c;
+document.write("Результат: " + "<br>" );  
+for (i=0;i<chisla.length;i++) 
+{ 
